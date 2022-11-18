@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+/* @font-face{
+    font-family: 'HelveticaNeue-Thin';
+    src: local('HelveticaNeue-Thin.otf'),url('HelveticaNeue-Thin.otf') format('opentype');
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+ */
+
+/* header section */
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px;
+    border-bottom: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+#top-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* hero-section */
+#hero-section{
+    overflow: hidden;
+}
+.hero-heading{
+    margin-top: 200px; 
+    padding-bottom: 3rem;
+    /* width: 60%;   */
+}
+.hero-heading h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.hero-heading p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.hero-heading a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.button{
+    border: 2px solid transparent;
+    display: inline;
+    padding: 7px 15px;
+    border-radius: 999999px;
+    background: #282828;
+    text-transform: uppercase;
+}
+.mobile-image img{
+    width: 20rem;
+    height: 30rem;
+}
+.mobile-image{
+    position: absolute;
+    right:3rem;
+    top: 15.5rem;
+    animation-duration: 10s;
+    overflow: hidden;
+}
+.content-parent{
+    position: relative;
+    overflow: hidden;
+}
+/* App-Feature */
+.App-Feature-heading{
+    margin-top: 85px;
+    margin-bottom: 2rem;
+}
+.App-Feature-heading h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #8a8a8a;
+}
+.App-Feature-heading p{
+    color: #8a8a8a;
+}
+.images{
+    width: 5rem;
+    height: 5rem;
+}
+.App-Feature-content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.App-Feature-content p{
+    color: #8a8a8a;
+}
+.people-information{
+    margin-bottom: 3rem;
+}
+/* chocolate-section */
+#chocolate{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.chocolate-content h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 5rem;
+
+}
+.chocolate-content p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: #585858;
+}
+.download-button{
+    border: 2px solid transparent;
+    display: inline;
+    border-radius: 99999px;
+    padding: 7px 20px;
+    background-color: #d9332d;  
+    
+}
+.download-button a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.chocolate-content{
+    /* margin-bottom: 5rem; */
+    padding-bottom: 5rem;
+}
+/* last-section */
+#last-section{
+    background: #2e2e38;
+}
+.mobileapp{
+    padding-top: 5rem;
+}
+.mobileapp a{
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.left-column h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.left-column-content{
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+}
+.box{
+    width: 5rem;
+    height: 4rem;
+    background-color: #e74c3c;
+}
+.left-column-content h4 ,p {
+    color: #fff;
+    text-transform: uppercase;
+    /* margin-left: 1rem; */
+    font-family: 'Montserrat', sans-serif;
+}
+.other h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.other-content h4{
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 100; 
+}
+.other-content h6{
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+}
+.right h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.right-content h4{
+    color: #fff;
+    font-weight: 100; 
+    font-family: 'Montserrat', sans-serif; 
+    font-style: italic; 
+}
+.last-part{
+    padding-bottom: 5rem;
+}
+/* footer  */
+footer {
+    width: 100%;
+    height: 5rem;
+    background: #d7dedc;
+}
+footer p{
+    padding-top: 2rem;
+    color: #000;
+}
+
+@media screen and (max-width:430px) {
+    .mobile-image img{
+        width: 13rem;
+        height: 20rem;
+        margin-top: 1rem;
+        margin-right: -23px;
+    }
+    .hero-heading p{        
+        font-size: 10px;       
+    }
+    .hero-heading h2{
+        font-size: 25px;        
+    }
+    .hero-heading a{
+        font-size: 10px;
+    }
+    .button {
+        border: 2px solid transparent;
+        display: inline;
+        padding: 4px 12px;
+        border-radius: 999999px;
+        background: #282828;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    .content-parent{
+        margin-top: -10rem;
+    }
+}
+/* @media screen and (min-width:430px) and (max-width:575px) {
+
+    .hero-heading p{        
+        font-size: 10px;       
+    }
+
+} */
+@media screen and (min-device-width: 431px) and (max-device-width: 575px) { 
+    .mobile-image img{
+        width: 14rem;
+        height: 23rem;
+        margin-top: 1rem;
+        margin-right: -34px;
+    }
+    .hero-heading p{        
+        font-size: 10px;       
+    }
+    .hero-heading h2{
+        font-size: 25px;        
+    }
+    .hero-heading a{
+        font-size: 10px;
+    }
+    .button {
+        border: 2px solid transparent;
+        display: inline;
+        padding: 4px 12px;
+        border-radius: 999999px;
+        background: #282828;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    .content-parent{
+        margin-top: -10rem;
+    }
+}
+@media screen and (min-device-width: 575px) and (max-device-width: 767px){
+    .mobile-image img{
+        width: 14rem;
+        height: 23rem;
+        margin-top: 1rem;
+        margin-right: -34px;
+    }
+    .hero-heading p{        
+        font-size: 14px;       
+    }
+    .hero-heading h2{
+        font-size: 28px;        
+    }
+    .hero-heading a{
+        font-size: 10px;
+    }
+    .button {
+        border: 2px solid transparent;
+        display: inline;
+        padding: 4px 12px;
+        border-radius: 999999px;
+        background: #282828;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    .content-parent{
+        margin-top: -10rem;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .mobile-image img{
+        width: 17rem;
+        height: 27rem;
+        margin-top: 3rem;
+        margin-right: -34px;
+    }
+    .hero-heading p{        
+        font-size: 18px;       
+    }
+    .hero-heading h2{
+        font-size: 40px;        
+    }
+    .hero-heading a{
+        font-size: 13px;
+    }
+    .button {
+        border: 2px solid transparent;
+        display: inline;
+        padding: 4px 12px;
+        border-radius: 999999px;
+        background: #282828;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    .content-parent{
+        margin-top: -10rem;
+    }
+}
